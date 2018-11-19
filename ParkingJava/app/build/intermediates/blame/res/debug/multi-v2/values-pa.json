@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\hayle\\AndroidStudioProjects\\ParkingJava\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pa\\values-pa.xml",
+            "outputFile": "C:\\Users\\hayle\\Documents\\~Fall 2018\\CSC3380\\main\\ParkingJava\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pa\\values-pa.xml",
             "map": [
                 {
                     "source": "C:\\Users\\hayle\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\51723a82b18155e14882115a7f047bd0\\res\\values-pa\\values.xml",

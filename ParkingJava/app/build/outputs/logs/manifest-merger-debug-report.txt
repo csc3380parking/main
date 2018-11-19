@@ -1,19 +1,22 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\24bf918ce5386f06615192c0c59b9884\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\10fb033c9d38bf8151eb7088a0b43781\AndroidManifest.xml:17:1-32:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\59ea0a6309aebdb476bba94c8bfc0cf8\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\763540802d943ad4770c06e70e21b6af\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\51723a82b18155e14882115a7f047bd0\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\71df5702740a081f8b12402f63692b27\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\05c2abda52cea6ab1bdbda3674bb7577\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c7d4c274ee85c55a1ac633123f1552a2\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\7cfdbe96bd28da98a612858d39eec488\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\2e86088e5856ff31c5a97e3428dbf0a6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\bd61c962c88e9b8c1d630552d96a5008\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:rxjava2:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\rxjava2-1.1.1.aar\d7b73ac9378ea76c3ef84a53e3bd32ec\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:guava:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\guava-1.1.1.aar\b0d35affcce4a238928f3a43168be199\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e7982e4f8237634da39e62f85d5a30ea\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\dc67230f9f816b680e4329985e16fc42\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\59ea0a6309aebdb476bba94c8bfc0cf8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\763540802d943ad4770c06e70e21b6af\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\a3b344d9e09baeb0c4497471ab9e4066\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\755e3daeba448297991d08db13e73ddc\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:loader:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\898f2ce0079792e3d46ccf6591f66354\AndroidManifest.xml:17:1-22:12
@@ -27,38 +30,40 @@ MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\hayle\.gra
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f0da75dac15d4b29d758add61ebd5aaa\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\19c6ca00044a293182b00c12416317df\AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\c8827bdcbb8e5bbe300ae63aa83af828\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2207dd760e17facce9f79ad859366307\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\7d3cdd769fe14f732af41f0dd190366e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\d471b0e176bf57309f55c00fd74e45a9\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\b46422dcdff389a77790ca756e2d3694\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\14cb01a1a6cba3b33b1485f4bebcd6d0\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\886c41c6e11d9fc5de0ef508c87c1a09\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2207dd760e17facce9f79ad859366307\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\c90c1408a5411604c59df6e5c82c2110\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\053e6c96f2cb26775d940c5551580220\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:documentfile:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\1aa9d487ce9e440200c7e9668318ed0f\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\13dd53ee31b38e87657a1551ff2f1c23\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\bdb4ad6beae83fa5aab504eced41cfa5\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\c90c1408a5411604c59df6e5c82c2110\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\053e6c96f2cb26775d940c5551580220\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
-		ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:3:5-44
-		INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:2:1-41:12
-		INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:2:1-41:12
-		INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:9:5-79
+ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:9:22-76
+		ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:9:22-76
 application
-ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:11:5-39:19
+ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:11:5-39:19
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\10fb033c9d38bf8151eb7088a0b43781\AndroidManifest.xml:30:5-20
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\10fb033c9d38bf8151eb7088a0b43781\AndroidManifest.xml:30:5-20
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\51723a82b18155e14882115a7f047bd0\AndroidManifest.xml:22:5-27:19
@@ -67,10 +72,6 @@ MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\hayle\.
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\71df5702740a081f8b12402f63692b27\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\05c2abda52cea6ab1bdbda3674bb7577\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\05c2abda52cea6ab1bdbda3674bb7577\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c7d4c274ee85c55a1ac633123f1552a2\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c7d4c274ee85c55a1ac633123f1552a2\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\7cfdbe96bd28da98a612858d39eec488\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\7cfdbe96bd28da98a612858d39eec488\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f0da75dac15d4b29d758add61ebd5aaa\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f0da75dac15d4b29d758add61ebd5aaa\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\19c6ca00044a293182b00c12416317df\AndroidManifest.xml:22:5-23:19
@@ -78,63 +79,69 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\hayle\.gra
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f0da75dac15d4b29d758add61ebd5aaa\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:14:9-41
 	android:roundIcon
-		ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:15:9-54
 	android:icon
-		ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:17:9-40
+		ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:17:9-40
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:26:9-28:55
+ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:26:9-28:55
 	android:value
-		ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:28:13-52
+		ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:28:13-52
 	android:name
-		ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:27:13-58
+		ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:27:13-58
 activity#com.example.hayle.parkingjava.MapsActivity
-ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:30:9-38:20
+ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:30:9-38:20
 	android:label
-		ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:32:13-56
+		ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:32:13-56
 	android:name
-		ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:31:13-41
+		ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:31:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:33:13-37:29
+ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:33:13-37:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:34:17-69
+ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:34:17-69
 	android:name
-		ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:34:25-66
+		ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:34:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:36:17-77
+ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:36:17-77
 	android:name
-		ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml:36:27-74
+		ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml:36:27-74
 uses-sdk
-INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\24bf918ce5386f06615192c0c59b9884\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\24bf918ce5386f06615192c0c59b9884\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\10fb033c9d38bf8151eb7088a0b43781\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\10fb033c9d38bf8151eb7088a0b43781\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\59ea0a6309aebdb476bba94c8bfc0cf8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\59ea0a6309aebdb476bba94c8bfc0cf8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\763540802d943ad4770c06e70e21b6af\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\763540802d943ad4770c06e70e21b6af\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\51723a82b18155e14882115a7f047bd0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\51723a82b18155e14882115a7f047bd0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\71df5702740a081f8b12402f63692b27\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\71df5702740a081f8b12402f63692b27\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\05c2abda52cea6ab1bdbda3674bb7577\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\05c2abda52cea6ab1bdbda3674bb7577\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c7d4c274ee85c55a1ac633123f1552a2\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c7d4c274ee85c55a1ac633123f1552a2\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\7cfdbe96bd28da98a612858d39eec488\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\7cfdbe96bd28da98a612858d39eec488\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\2e86088e5856ff31c5a97e3428dbf0a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\2e86088e5856ff31c5a97e3428dbf0a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\bd61c962c88e9b8c1d630552d96a5008\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\bd61c962c88e9b8c1d630552d96a5008\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:rxjava2:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\rxjava2-1.1.1.aar\d7b73ac9378ea76c3ef84a53e3bd32ec\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:rxjava2:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\rxjava2-1.1.1.aar\d7b73ac9378ea76c3ef84a53e3bd32ec\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:guava:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\guava-1.1.1.aar\b0d35affcce4a238928f3a43168be199\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:guava:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\guava-1.1.1.aar\b0d35affcce4a238928f3a43168be199\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e7982e4f8237634da39e62f85d5a30ea\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e7982e4f8237634da39e62f85d5a30ea\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\dc67230f9f816b680e4329985e16fc42\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\dc67230f9f816b680e4329985e16fc42\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\59ea0a6309aebdb476bba94c8bfc0cf8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\59ea0a6309aebdb476bba94c8bfc0cf8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\763540802d943ad4770c06e70e21b6af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\763540802d943ad4770c06e70e21b6af\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\a3b344d9e09baeb0c4497471ab9e4066\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\a3b344d9e09baeb0c4497471ab9e4066\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\755e3daeba448297991d08db13e73ddc\AndroidManifest.xml:20:5-44
@@ -161,36 +168,38 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\hayle\.gra
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\19c6ca00044a293182b00c12416317df\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\c8827bdcbb8e5bbe300ae63aa83af828\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\c8827bdcbb8e5bbe300ae63aa83af828\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2207dd760e17facce9f79ad859366307\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2207dd760e17facce9f79ad859366307\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\7d3cdd769fe14f732af41f0dd190366e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\7d3cdd769fe14f732af41f0dd190366e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\d471b0e176bf57309f55c00fd74e45a9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\d471b0e176bf57309f55c00fd74e45a9\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\b46422dcdff389a77790ca756e2d3694\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\b46422dcdff389a77790ca756e2d3694\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\14cb01a1a6cba3b33b1485f4bebcd6d0\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\14cb01a1a6cba3b33b1485f4bebcd6d0\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\886c41c6e11d9fc5de0ef508c87c1a09\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\886c41c6e11d9fc5de0ef508c87c1a09\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2207dd760e17facce9f79ad859366307\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2207dd760e17facce9f79ad859366307\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\c90c1408a5411604c59df6e5c82c2110\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\c90c1408a5411604c59df6e5c82c2110\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\053e6c96f2cb26775d940c5551580220\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\053e6c96f2cb26775d940c5551580220\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\1aa9d487ce9e440200c7e9668318ed0f\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\1aa9d487ce9e440200c7e9668318ed0f\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\13dd53ee31b38e87657a1551ff2f1c23\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\13dd53ee31b38e87657a1551ff2f1c23\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:print:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\bdb4ad6beae83fa5aab504eced41cfa5\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:print:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\bdb4ad6beae83fa5aab504eced41cfa5\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\c90c1408a5411604c59df6e5c82c2110\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\c90c1408a5411604c59df6e5c82c2110\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\053e6c96f2cb26775d940c5551580220\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\053e6c96f2cb26775d940c5551580220\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c7d4c274ee85c55a1ac633123f1552a2\AndroidManifest.xml:23:9-51
+INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\hayle\AndroidStudioProjects\ParkingJava\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hayle\Documents\~Fall 2018\CSC3380\main\ParkingJava\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\10fb033c9d38bf8151eb7088a0b43781\AndroidManifest.xml:23:5-79
 	android:name
@@ -219,11 +228,3 @@ ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\hayle
 		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\05c2abda52cea6ab1bdbda3674bb7577\AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\05c2abda52cea6ab1bdbda3674bb7577\AndroidManifest.xml:24:13-58
-meta-data#android.support.VERSION
-ADDED from [com.android.support:support-v4:26.1.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c7d4c274ee85c55a1ac633123f1552a2\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\7cfdbe96bd28da98a612858d39eec488\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\7cfdbe96bd28da98a612858d39eec488\AndroidManifest.xml:26:9-28:38
-	android:value
-		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c7d4c274ee85c55a1ac633123f1552a2\AndroidManifest.xml:28:13-35
-	android:name
-		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\hayle\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c7d4c274ee85c55a1ac633123f1552a2\AndroidManifest.xml:27:13-51

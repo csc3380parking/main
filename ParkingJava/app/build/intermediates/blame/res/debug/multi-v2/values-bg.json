@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\hayle\\AndroidStudioProjects\\ParkingJava\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
+            "outputFile": "C:\\Users\\hayle\\Documents\\~Fall 2018\\CSC3380\\main\\ParkingJava\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
             "map": [
                 {
                     "source": "C:\\Users\\hayle\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\f0da75dac15d4b29d758add61ebd5aaa\\res\\values-bg\\values-bg.xml",
