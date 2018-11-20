@@ -4,14 +4,13 @@ import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
 import android.support.annotation.NonNull;
 
-@Entity
-public class parkingSpot {
+@Entity(primaryKeys = {"lat", "lng"})
+public class Coor {
 
-    @PrimaryKey
     @NonNull
     private double lat, lng;
 
-    public parkingSpot(double lat, double lng){
+    public Coor(double lat, double lng){
         this.lat = lat;
         this.lng = lng;
     }

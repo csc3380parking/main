@@ -2626,22 +2626,23 @@ public final class R {
     public static final int common_google_signin_btn_text_light_normal_background=0x7f060067;
     public static final int googleg_disabled_color_18=0x7f060068;
     public static final int googleg_standard_color_18=0x7f060069;
-    public static final int ic_launcher_background=0x7f06006a;
-    public static final int ic_launcher_foreground=0x7f06006b;
-    public static final int notification_action_background=0x7f06006c;
-    public static final int notification_bg=0x7f06006d;
-    public static final int notification_bg_low=0x7f06006e;
-    public static final int notification_bg_low_normal=0x7f06006f;
-    public static final int notification_bg_low_pressed=0x7f060070;
-    public static final int notification_bg_normal=0x7f060071;
-    public static final int notification_bg_normal_pressed=0x7f060072;
-    public static final int notification_icon_background=0x7f060073;
-    public static final int notification_template_icon_bg=0x7f060074;
-    public static final int notification_template_icon_low_bg=0x7f060075;
-    public static final int notification_tile_bg=0x7f060076;
-    public static final int notify_panel_notification_icon_bg=0x7f060077;
-    public static final int tooltip_frame_dark=0x7f060078;
-    public static final int tooltip_frame_light=0x7f060079;
+    public static final int ic_add_black_24dp=0x7f06006a;
+    public static final int ic_launcher_background=0x7f06006b;
+    public static final int ic_launcher_foreground=0x7f06006c;
+    public static final int notification_action_background=0x7f06006d;
+    public static final int notification_bg=0x7f06006e;
+    public static final int notification_bg_low=0x7f06006f;
+    public static final int notification_bg_low_normal=0x7f060070;
+    public static final int notification_bg_low_pressed=0x7f060071;
+    public static final int notification_bg_normal=0x7f060072;
+    public static final int notification_bg_normal_pressed=0x7f060073;
+    public static final int notification_icon_background=0x7f060074;
+    public static final int notification_template_icon_bg=0x7f060075;
+    public static final int notification_template_icon_low_bg=0x7f060076;
+    public static final int notification_tile_bg=0x7f060077;
+    public static final int notify_panel_notification_icon_bg=0x7f060078;
+    public static final int tooltip_frame_dark=0x7f060079;
+    public static final int tooltip_frame_light=0x7f06007a;
   }
   public static final class id {
     public static final int ALT=0x7f070000;
@@ -2782,18 +2783,19 @@ public final class R {
     public static final int text2=0x7f070087;
     public static final int textSpacerNoButtons=0x7f070088;
     public static final int textSpacerNoTitle=0x7f070089;
-    public static final int time=0x7f07008a;
-    public static final int title=0x7f07008b;
-    public static final int titleDividerNoCustom=0x7f07008c;
-    public static final int title_template=0x7f07008d;
-    public static final int top=0x7f07008e;
-    public static final int topPanel=0x7f07008f;
-    public static final int uniform=0x7f070090;
-    public static final int up=0x7f070091;
-    public static final int useLogo=0x7f070092;
-    public static final int wide=0x7f070093;
-    public static final int withText=0x7f070094;
-    public static final int wrap_content=0x7f070095;
+    public static final int textView=0x7f07008a;
+    public static final int time=0x7f07008b;
+    public static final int title=0x7f07008c;
+    public static final int titleDividerNoCustom=0x7f07008d;
+    public static final int title_template=0x7f07008e;
+    public static final int top=0x7f07008f;
+    public static final int topPanel=0x7f070090;
+    public static final int uniform=0x7f070091;
+    public static final int up=0x7f070092;
+    public static final int useLogo=0x7f070093;
+    public static final int wide=0x7f070094;
+    public static final int withText=0x7f070095;
+    public static final int wrap_content=0x7f070096;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;
@@ -2848,10 +2850,11 @@ public final class R {
     public static final int notification_template_media_custom=0x7f090029;
     public static final int notification_template_part_chronometer=0x7f09002a;
     public static final int notification_template_part_time=0x7f09002b;
-    public static final int select_dialog_item_material=0x7f09002c;
-    public static final int select_dialog_multichoice_material=0x7f09002d;
-    public static final int select_dialog_singlechoice_material=0x7f09002e;
-    public static final int support_simple_spinner_dropdown_item=0x7f09002f;
+    public static final int recyclerview_item=0x7f09002c;
+    public static final int select_dialog_item_material=0x7f09002d;
+    public static final int select_dialog_multichoice_material=0x7f09002e;
+    public static final int select_dialog_singlechoice_material=0x7f09002f;
+    public static final int support_simple_spinner_dropdown_item=0x7f090030;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f0a0000;
@@ -3274,6 +3277,7 @@ public final class R {
     public static final int Widget_Compat_NotificationActionContainer=0x7f0c015d;
     public static final int Widget_Compat_NotificationActionText=0x7f0c015e;
     public static final int Widget_Support_CoordinatorLayout=0x7f0c015f;
+    public static final int coor_title=0x7f0c0160;
   }
   public static final class styleable {
     /**

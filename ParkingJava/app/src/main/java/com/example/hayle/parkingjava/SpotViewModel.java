@@ -4,21 +4,19 @@ import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;
 import android.arch.lifecycle.LiveData;
 
-import com.google.android.gms.maps.model.LatLng;
-
 import java.util.List;
 
 public class SpotViewModel extends AndroidViewModel {
     private SpotRepository mRepository;
-    private LiveData<List<Double>> mAllCoordinates;
+    private LiveData<List<Coor>> mAllCoordinates;
 
     public SpotViewModel (Application application) {
         super(application);
         mRepository = new SpotRepository(application);
-        mAllCoordinates = mRepository.getAllWords();
+        mAllCoordinates = mRepository.getAllCoordinates();
     }
     //hides implementation from UI
-    LiveData<List<Double>> getAllWords() { return mAllCoordinates; }
+    LiveData<List<Coor>> getAllCoordinates() { return mAllCoordinates; }
 
-    public void insertLat (LatLng lat) { mRepository.insert(lat); }
+    public void insert (Coor lat, Coor lng) { mRepository.insert(lat, lng); }
 }

@@ -9,7 +9,7 @@ import java.util.List;
 
 public class SpotRepository {
     private ParkingDao mParkingDao;
-    private LiveData<List<Double>> mAllCoordinates;
+    private LiveData<List<Coor>> mAllCoordinates;
 
     SpotRepository(Application application) {
         CoordinateDatabase db = CoordinateDatabase.getDatabase(application);
@@ -17,28 +17,28 @@ public class SpotRepository {
         mAllCoordinates = mParkingDao.getAllCoordinates();
     }
 
-    LiveData<List<Double>> getAllWords() {
+    LiveData<List<Coor>> getAllCoordinates() {
         return mAllCoordinates;
     }
 
     //in order to insert both doubles in ParkingDao
-    private static class LatLng {
-        double lat;
-        double lng;
+    private static class Coord {
+        Coor lat;
+        Coor lng;
         //constructor
-        LatLng(double lat, double lng) {
+        Coord(Coor lat, Coor lng) {
             this.lat = lat;
             this.lng = lng;
         }
     }
-    public void insertLat (LatLng lat) {
-        new insertAsyncTask(mParkingDao).execute(lat);
-    }
-    public void insertLng (LatLng lng) {
-        new insertAsyncTask(mParkingDao).execute(lng);
+    public void insert (Coor lat, Coor lng) {
+        Coord params = new Coord(lat, lng);
+        insertAsyncTask myTask = new insertAsyncTask(mParkingDao);
+        //new insertAsyncTask(mParkingDao).execute(lat, lng);
+        myTask.execute(params);
     }
 
-    private static class insertAsyncTask extends AsyncTask<LatLng, Void, Void> {
+    private static class insertAsyncTask extends AsyncTask<Coord, Void, Void> {
 
         private ParkingDao mAsyncTaskDao;
         //constructor
@@ -47,9 +47,9 @@ public class SpotRepository {
         }
         //method needed for insertAsyncTask
         @Override
-        protected Void doInBackground(LatLng... params) {
-            double lat = params[0].lat;
-            double lng = params[0].lng;
+        protected Void doInBackground(final Coord... params) {
+            Coor lat = params[0].lat;
+            Coor lng = params[0].lng;
             mAsyncTaskDao.insert(lat, lng);
             return null;
         }

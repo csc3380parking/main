@@ -6,18 +6,16 @@ import android.arch.persistence.room.Delete;
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.Query;
 
-import com.google.android.gms.maps.model.LatLng;
-
 import java.util.List;
 
 @Dao
 public interface ParkingDao {
     @Insert
-    void insert(Double lat, Double lng);
+    void insert(Coor lat, Coor lng);
 
     @Delete
-    public void deleteCoordinate(parkingSpot ... lat);
+    void deleteCoordinate(Coor ... lat);
 
-    @Query("SELECT * from parkingSpot ORDER BY lat ASC")
-    LiveData<List<Double>> getAllCoordinates();
+    @Query("SELECT * from Coor ORDER BY lat ASC")
+    LiveData<List<Coor>> getAllCoordinates();
 }

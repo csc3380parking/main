@@ -5,7 +5,7 @@ import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
 
-@Database(entities = {parkingSpot.class}, version = 1)
+@Database(entities = {Coor.class}, version = 1)
 public abstract class CoordinateDatabase extends RoomDatabase {
     public abstract ParkingDao parkingDao();
     private static volatile CoordinateDatabase INSTANCE;
