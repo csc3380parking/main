@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">PracticeDataUp</string>
     <string name="action_settings">Settings</string>
+    <string name="hint_coor">Coordinate...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Coordinate not saved because it is empty.</string>
 </resources>

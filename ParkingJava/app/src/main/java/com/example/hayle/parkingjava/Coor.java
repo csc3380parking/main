@@ -1,13 +1,13 @@
-package com.example.heewon.practicedataup;
+package com.example.hayle.parkingjava;
 
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
 import android.support.annotation.NonNull;
 
-@Entity(primaryKeys = {"lat", "lng"})
+@Entity
 public class Coor {
-    //Coor short for coordinates
-
+//Coor short for coordinates
+    @PrimaryKey
     @NonNull
     private double lat, lng;
 

@@ -1,3 +1,4 @@
+
 package com.example.hayle.parkingjava;
 
 import android.app.Application;
@@ -5,7 +6,6 @@ import android.arch.lifecycle.LiveData;
 import android.os.AsyncTask;
 
 import java.util.List;
-
 
 public class SpotRepository {
     private ParkingDao mParkingDao;
@@ -20,6 +20,7 @@ public class SpotRepository {
     LiveData<List<Coor>> getAllCoordinates() {
         return mAllCoordinates;
     }
+<<<<<<< Updated upstream
 
     //in order to insert both doubles in ParkingDao
     private static class Coord {
@@ -27,15 +28,32 @@ public class SpotRepository {
         Coor lng;
         //constructor
         Coord(Coor lat, Coor lng) {
+=======
+    public static class Coord {
+        double lat;
+        double lng;
+        //constructor
+        Coord(double lat, double lng) {
+>>>>>>> Stashed changes
             this.lat = lat;
             this.lng = lng;
         }
     }
+<<<<<<< Updated upstream
     public void insert (Coor lat, Coor lng) {
         Coord params = new Coord(lat, lng);
         insertAsyncTask myTask = new insertAsyncTask(mParkingDao);
         //new insertAsyncTask(mParkingDao).execute(lat, lng);
         myTask.execute(params);
+=======
+    public void insert(Coord lat, Coord lng){new insertAsyncTask(mParkingDao).execute(lat, lng);}
+
+    public void insertLat (Coord lat) {
+        new insertAsyncTask(mParkingDao).execute(lat);
+    }
+    public void insertLng (Coord lng) {
+        new insertAsyncTask(mParkingDao).execute(lng);
+>>>>>>> Stashed changes
     }
 
     private static class insertAsyncTask extends AsyncTask<Coord, Void, Void> {
@@ -48,8 +66,13 @@ public class SpotRepository {
         //method needed for insertAsyncTask
         @Override
         protected Void doInBackground(final Coord... params) {
+<<<<<<< Updated upstream
             Coor lat = params[0].lat;
             Coor lng = params[0].lng;
+=======
+            double lat = params[0].lat;
+            double lng = params[0].lng;
+>>>>>>> Stashed changes
             mAsyncTaskDao.insert(lat, lng);
             return null;
         }

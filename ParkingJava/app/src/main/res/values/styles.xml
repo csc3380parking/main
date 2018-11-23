@@ -8,9 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+<<<<<<< Updated upstream
     <!-- The default font for RecyclerView items is too small.
 The margin is a simple delimiter between the words. -->
     <style name="coor_title">
+=======
+    <style name="word_title">
+>>>>>>> Stashed changes
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">26dp</item>
         <item name="android:textSize">24sp</item>
@@ -18,5 +22,8 @@ The margin is a simple delimiter between the words. -->
         <item name="android:layout_marginBottom">6dp</item>
         <item name="android:paddingLeft">8dp</item>
     </style>
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 </resources>
