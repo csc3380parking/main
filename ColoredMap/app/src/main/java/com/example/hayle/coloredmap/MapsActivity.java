@@ -31,7 +31,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private static final LatLng CENTRAL_LOT = new LatLng(30.405803686603857, -91.17964625358582);
     private static final LatLng EAST_LOT = new LatLng(30.405118946087722,-91.17716789245605);
 
-    //array with all the pictures in it
+    //array to hold blue, green, red, pink, pics for the overlays
     private final List<BitmapDescriptor> mImages = new ArrayList<BitmapDescriptor>();
 
     @Override
