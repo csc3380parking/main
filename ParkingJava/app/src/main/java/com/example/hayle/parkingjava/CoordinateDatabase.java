@@ -1,4 +1,4 @@
-package com.example.hayle.parkingjava;
+/*package com.example.hayle.parkingjava;
 
 import android.arch.persistence.room.Database;
 import android.arch.persistence.room.Room;
@@ -23,4 +23,4 @@ public abstract class CoordinateDatabase extends RoomDatabase {
         }
         return INSTANCE;
     }
-}
+}*/

@@ -1,4 +1,4 @@
-
+/*
 package com.example.hayle.parkingjava;
 
 import android.app.Application;
@@ -36,4 +36,4 @@ public class SpotViewModel extends AndroidViewModel {
     public void insert (Coord lat, Coord lng) { mRepository.insert(lat, lng); }
 
 >>>>>>> Stashed changes
-}
+}*/

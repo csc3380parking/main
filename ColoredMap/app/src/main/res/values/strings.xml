@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ColoredMap</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="transparency">Transparency</string>
+    <string name="clickable">Clickable</string>
+    <string name="switch_image">Switch Image</string>
+</resources>

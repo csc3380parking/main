@@ -1,4 +1,4 @@
-package com.example.hayle.parkingjava;
+/*package com.example.hayle.parkingjava;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.persistence.room.Dao;
@@ -25,4 +25,4 @@ public interface ParkingDao {
 
     @Query("SELECT * from Coor ORDER BY lat ASC")
     LiveData<List<Coor>> getAllCoordinates();
-}
+}*/

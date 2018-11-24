@@ -1,4 +1,4 @@
-package com.example.hayle.parkingjava;
+/*package com.example.hayle.parkingjava;
 
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
@@ -21,4 +21,4 @@ public class Coor {
     public double getLng(){
         return this.lng;
     }
-}
+}*/

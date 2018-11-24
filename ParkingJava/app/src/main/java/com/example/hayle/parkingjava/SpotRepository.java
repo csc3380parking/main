@@ -1,4 +1,4 @@
-
+/*
 package com.example.hayle.parkingjava;
 
 import android.app.Application;
@@ -77,4 +77,4 @@ public class SpotRepository {
             return null;
         }
     }
-}
+}*/
