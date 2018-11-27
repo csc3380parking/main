@@ -40,7 +40,6 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -48,11 +47,8 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
-import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.GroundOverlay;
 import com.google.android.gms.maps.model.GroundOverlayOptions;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -90,12 +86,15 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
 
         mImages.clear();
 
+    /*------------------------- LOT OVERLAYS -------------------------------------------------------------*/
+
         mImages.add(BitmapDescriptorFactory.fromResource(R.drawable.pft_central_lot));
         mImages.add(BitmapDescriptorFactory.fromResource(R.drawable.pft_east_lot));
         mImages.add(BitmapDescriptorFactory.fromResource(R.drawable.stadium_lot_1));
         mImages.add(BitmapDescriptorFactory.fromResource(R.drawable.visitor_lot_1));
-
-
+        mImages.add(BitmapDescriptorFactory.fromResource(R.drawable.stadium_lot_2));
+        mImages.add(BitmapDescriptorFactory.fromResource(R.drawable.stadium_lot_3));
+        mImages.add(BitmapDescriptorFactory.fromResource(R.drawable.visitor_lot_2));
 
         //small overlay on central parking lot
         mGroundOverlay = googleMap.addGroundOverlay(new GroundOverlayOptions()
@@ -105,6 +104,16 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                 .position(CENTRAL_LOT, 510F, 300F)//size and location
                 .bearing(0) //rotation
                 .transparency((float) 0.5));
+
+        //small overlay on east parking lot
+        mGroundOverlay = googleMap.addGroundOverlay(new GroundOverlayOptions()
+                //anchor1 is distance from top, and anchor2 is distance from left
+                .image(mImages.get(1)).anchor((float).29,(float).65)
+                .position(EAST_LOT, 400F, 250F)//size and location
+                .bearing(28) //rotation
+                .transparency((float) 0.5)
+                .clickable(true));
+        mGroundOverlay.setTag("871/1264");
 
         //small overlay on central parking lot
         mGroundOverlay = googleMap.addGroundOverlay(new GroundOverlayOptions()
@@ -124,21 +133,37 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                 .bearing(0) //rotation
                 .transparency((float) 0.5));
 
-
-        //small overlay on east parking lot
+        //small overlay on central parking lot
         mGroundOverlay = googleMap.addGroundOverlay(new GroundOverlayOptions()
                 //anchor1 is distance from top, and anchor2 is distance from left
-                .image(mImages.get(1)).anchor((float).29,(float).65)
-                .position(EAST_LOT, 400F, 250F)//size and location
-                .bearing(28) //rotation
-                .transparency((float) 0.5)
-                .clickable(true));
-        mGroundOverlay.setTag("871/1264");
-        /*
-        MarkerOptions central = mMap.addMarker(new MarkerOptions()
-                                .position(CENTRAL_LOT).icon(null)
-                                .title("Central Lot").snippet("871/1275"));
-         */
+                .image(mImages.get(4)).anchor((float).5,(float).50)
+                //int2 is width, int3 is height
+                .position(STADIUM_LOT_2, 300F, 300F)//size and location
+                .bearing(0) //rotation
+                .transparency((float) 0.5));
+
+        //small overlay on central parking lot
+        mGroundOverlay = googleMap.addGroundOverlay(new GroundOverlayOptions()
+                //anchor1 is distance from top, and anchor2 is distance from left
+                .image(mImages.get(5)).anchor((float).5,(float).50)
+                //int2 is width, int3 is height
+                .position(STADIUM_LOT_3, 300F, 300F)//size and location
+                .bearing(0) //rotation
+                .transparency((float) 0.5));
+
+        //small overlay on central parking lot
+        mGroundOverlay = googleMap.addGroundOverlay(new GroundOverlayOptions()
+                //anchor1 is distance from top, and anchor2 is distance from left
+                .image(mImages.get(6)).anchor((float).56,(float).50)
+                //int2 is width, int3 is height
+                .position(STADIUM_LOT_3, 300F, 300F)//size and location
+                .bearing(0) //rotation
+                .transparency((float) 0.5));
+
+
+
+/*---------------------------- MAKING MARKERS -----------------------------------------------------------------------*/
+
         MarkerOptions central = new MarkerOptions()
                 .position(CENTRAL_LOT).alpha(0)
                 .title("Central Lot").snippet("439/1264");
@@ -160,7 +185,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
 
 
     private static final String TAG = "MapActivity";
-
     private static final String FINE_LOCATION = Manifest.permission.ACCESS_FINE_LOCATION;
     private static final String COURSE_LOCATION = Manifest.permission.ACCESS_COARSE_LOCATION;
     private static final int LOCATION_PERMISSION_REQUEST_CODE = 1234;
@@ -174,12 +198,15 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     private static final LatLng CENTRAL_LOT = new LatLng(30.405803686603857, -91.17964625358582);
     private static final LatLng EAST_LOT = new LatLng(30.40510969280462,-91.17716789245605);
     private static final LatLng STADIUM_LOT_1 = new LatLng(30.41017851000956,-91.18460691642986);
-    private static final LatLng VISITOR_LOT_1 = new LatLng(30.41017851000956,-91.18460691642986);
+    private static final LatLng STADIUM_LOT_2 = new LatLng(30.410313600862967,-91.18611539117273);
+    private static final LatLng STADIUM_LOT_3 = new LatLng(30.411505924312713,-91.18607631336329);
+    private static final LatLng VISITOR_LOT_2 = new LatLng(30.411505924312713,-91.18607631336329);
 
 
     //widgets
     private AutoCompleteTextView mSearchText;
     private ImageView mGps;
+    private ImageView mLsu;
 
 
     //vars
@@ -204,6 +231,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         setContentView(R.layout.activity_map);
         mSearchText = (AutoCompleteTextView) findViewById(R.id.input_search);
         mGps = (ImageView) findViewById(R.id.ic_gps);
+        mLsu = (ImageView) findViewById(R.id.ic_lsu);
 
         getLocationPermision();
 
@@ -250,6 +278,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             }
         });
 
+        //click on the location button to move to your current location
         mGps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -258,6 +287,15 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             }
         });
         hideSoftKeyboard();
+
+        //click on the ... button to move over LSU
+        mLsu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d(TAG, "onClick: clicked gps icon");
+                moveToLsu();
+            }
+        });
     }
 
     private void geoLocate(){
@@ -319,6 +357,16 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             Log.e(TAG, "getDeviceLocation: SecurityException: "+ e.getMessage());
         }
     }
+
+    private void moveToLsu(){
+        Log.d(TAG,"moveToLsu: moving camera over LSU");
+        // Add a marker at LSU and move the camera
+        LatLng lsu = new LatLng(30.4133, -91.1800);
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(lsu, 15));
+        //changeCamera(CameraUpdateFactory.newCameraPosition(lsu));
+    }
+
+
 
     private void moveCamera(LatLng latLng, float zoom, String title) {
         Log.d(TAG, "moveCamera: moving the camera to lat: " + latLng.latitude +",lng: " + latLng.longitude);
