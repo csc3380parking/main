@@ -105,13 +105,13 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                                 .title("Central Lot").snippet("871/1275"));
          */
         MarkerOptions central = new MarkerOptions()
-                                .position(CENTRAL_LOT)
+                                .position(CENTRAL_LOT).alpha(0)
                                 .title("Central Lot").snippet("439/1264");
         MarkerOptions east = new MarkerOptions()
-                .position(EAST_LOT)
+                .position(EAST_LOT).alpha(0)
                 .title("Central Lot").snippet("597/1275");
-        mMap.addMarker(central).setIcon(null);
-        mMap.addMarker(east).setIcon(null);
+        mMap.addMarker(central);
+        mMap.addMarker(east);
 
     }
 
