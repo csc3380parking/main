@@ -104,7 +104,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     //array to hold blue, green, red, pink, pics for the overlays
     private final List<BitmapDescriptor> mImages = new ArrayList<BitmapDescriptor>();
     public int buttonVal =0; //0 is add, 1 is subtract
-    public int lotSpaces = 5;
     public int centralAvail = 800;
     public int eastAvail= 400;
     Marker central, east;
@@ -238,9 +237,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                 .title("Visitor Lot 2").snippet("11/51"));
     }
 
-    /**
-     * Toggles the visibility between 100% and 50% when a {@link GroundOverlay} is clicked.
-     */
     public void onGroundOverlayClick(GroundOverlay groundOverlay) {
 
         if (groundOverlay.getTag() == "central") {
@@ -253,24 +249,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             groundOverlay.setTransparency(0);
         }
     }
-
-//    @SuppressLint("ResourceType")
-//    public int alter(int availSpaces){
-//        if(buttonVal ==0){
-//            availSpaces--;
-//            d.setImageResource(R.id.ic_sub);
-//            buttonVal = 1;
-//        }else if(buttonVal == 1){
-//            availSpaces++;
-//            mAdd.setImageResource(R.id.ic_add);
-//            buttonVal = 0;
-//        }
-//        return availSpaces;
-//    }
-
-
-
-
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -413,8 +391,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
 
     }
 
-
-
     private void getDeviceLocation(){
         Log.d(TAG, "getDeviceLocation: getting the devices current location");
 
@@ -481,9 +457,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         mapFragment.getMapAsync(MapActivity.this);
 
     }
-
-
-
 
     private void getLocationPermision() {
         Log.d(TAG, "getLocationpermission: getting location permisssions");
